@@ -6,7 +6,6 @@ export class MessagesController {
 
     @Get()
     listMessages() {
-
     }
 
     @Post()
