@@ -3,7 +3,7 @@ import { MessagesRepository } from "./messages.repository";
 export class MessagesService {
     messagesRepo: MessagesRepository;
     constructor() {
-        // Service is creating its own dependencies
+        // Service is creating its own dependencies (DI in future)
         this.messagesRepo = new MessagesRepository()
     }
 
