@@ -81,22 +81,6 @@ This project is a simple application built with NestJS that allows users to crea
 - **Language:** TypeScript
 - **Data Storage:** JSON file (`messages.json`)
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-1. Clone the repository
-
-git clone https://github.com/belka09/nestJS
-
-2. Install the required packages:
-
-npm install
-
-3. Start the application in development mode with the following command:
-
-npm run start:dev
-
 ### Prerequisites
 
 - Node.js (Preferably the latest stable version)
