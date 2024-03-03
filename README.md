@@ -71,3 +71,53 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+# Simple NestJS Messages App
+
+This project is a simple application built with NestJS that allows users to create, retrieve, and list messages. It utilizes a basic file-based storage system to persist messages data.
+
+## Features
+
+- Create new messages
+- Retrieve a single message by ID
+- List all messages
+
+## Technology Stack
+
+- **Framework:** NestJS
+- **Language:** TypeScript
+- **Data Storage:** JSON file (`messages.json`)
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+- Node.js (Preferably the latest stable version)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+
+git clone https://github.com/belka09/nestJS
+
+2. Install the required packages:
+
+npm install
+
+3. Start the application in development mode with the following command:
+
+npm run start:dev
+
+## Usage
+
+List Messages: Send a GET request to /messages to retrieve a list of all messages.
+
+Create Message: Send a POST request to /messages with a JSON body containing the content field to create a new message.
+
+Retrieve Message: Send a GET request to /messages/:id, replacing :id with the ID of the message you wish to retrieve.
+
+## License
+
+This project is distributed under the MIT License. See the LICENSE file for more information.
