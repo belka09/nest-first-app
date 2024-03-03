@@ -85,13 +85,6 @@ This project is a simple application built with NestJS that allows users to crea
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
-
-- Node.js (Preferably the latest stable version)
-- npm or yarn
-
-### Installation
-
 1. Clone the repository
 
 git clone https://github.com/belka09/nestJS
@@ -104,6 +97,11 @@ npm install
 
 npm run start:dev
 
+### Prerequisites
+
+- Node.js (Preferably the latest stable version)
+- npm or yarn
+
 ## Usage
 
 List Messages: Send a GET request to /messages to retrieve a list of all messages.
@@ -111,7 +109,3 @@ List Messages: Send a GET request to /messages to retrieve a list of all message
 Create Message: Send a POST request to /messages with a JSON body containing the content field to create a new message.
 
 Retrieve Message: Send a GET request to /messages/:id, replacing :id with the ID of the message you wish to retrieve.
-
-## License
-
-This project is distributed under the MIT License. See the LICENSE file for more information.
